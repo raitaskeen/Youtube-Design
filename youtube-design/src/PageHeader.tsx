@@ -24,7 +24,7 @@ export function PageHeader() {
             <MicIcon />
         </Button>
     </form>
-    <div className={'flex flex-shrink-0 md:gap-2 ${showFullWidthSearch ? hidden : flex}'}>
+    <div className={'flex flex-shrink-0 md:gap-2 ${ showFullWidthSearch ? "hidden" : "flex"}'}>
     <Button onClick={() => setShowFullWidthSearch(true)} size={"icon"} variant={"ghost"} className='md:hidden'>
             <Search  />
         </Button>
